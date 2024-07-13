@@ -6,22 +6,24 @@ const Nav = styled.nav`
   display: flex;
   position: fixed;
   top: 0;
-  background-color: rgb(250, 255, 100);
+  background-color: rgb(0, 0, 0);
   padding: 4px 0;
   z-index: 1000;
 `;
 
-const NavLinksContainer = styled.div`   
-
+const NavLinksContainer = styled.div`
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 10px;
 `;
 
 const NavLink = styled(Link)`
   text-decoration: none;
   font-size: 20px;
-  color: rgb(31, 30, 30);
-  margin: 0 3rem;
+  color: rgb(255, 255, 255);
+  margin: 20px;
   font-weight: bold;
-  margin-top: 3vh;
   font-family: 'Poetsen One', sans-serif;
   font-family: 'Poetsen One', sans-serif;
 
